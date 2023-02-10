@@ -11,5 +11,9 @@ public class FahrTest {
 		assertEquals(7.22, FahrToCel.fahrCel(), 15.11);
 		
 	}
+	@Test
+	public void testSayHi () {
+		assertEquals("Hello World", FahrToCel.sayHi());
 
+}
 }

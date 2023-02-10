@@ -12,4 +12,8 @@ public class FahrToCel {
       	return c;
 	
 	}
+
+	public static String sayHi () {
+			return "Hello World";
+	}
 }
