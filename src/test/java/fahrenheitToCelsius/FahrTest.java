@@ -16,4 +16,8 @@ public class FahrTest {
 		assertEquals("Hello World", FahrToCel.sayHi());
 
 }
+@Test
+public void returnFiveTest () {
+		assertEquals(5,FahrToCel.returnNumber() );
+}
 }
